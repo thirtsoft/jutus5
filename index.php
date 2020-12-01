@@ -100,7 +100,7 @@
 				<div class="container">
 					<h2>Ingénieur Informatique</h2>
 					<span class="mytext1 uppercase mt-2">Bonjour je m'appelle </span>
-					<span class="mytext2"> Mamadou Tahirou Diallo </span>
+					<span class="mytext2"> Tahirou Diallo </span>
 					<p class="para-style text-light mt-xl-4 mt-3"></p>
 					<div class="button-w3ls" data-aos="fade-up">
 						<a href="./images/cvdev.pdf" class="btn btn-sm animated-button thar-three mr-2">Download <i class="fas fa-download"></i></a>
@@ -351,6 +351,15 @@
 				<section>
 					<ul id="da-thumbs" class="da-thumbs">
 						<li data-aos="zoom-in">
+							<a href="images/apc.JPG" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/apc.JPG" alt="" class="img-fluid" />
+								<div>
+									<h5>Application Web PHP de Formation</h5>
+									<p>PlateForme Enseignement Professionnelle</p>
+								</div>
+							</a>
+						</li>
+						<li data-aos="zoom-in">
 							<a href="images/dimoShop.PNG" class="b-link-stripe b-animate-go  thickbox">
 								<img src="images/dimoShop.PNG" alt="" class="img-fluid" />
 								<div>
@@ -395,6 +404,7 @@
 								</div>
 							</a>
 						</li>
+						<!--
 						<li data-aos="zoom-in">
 							<a href="images/gstage1.PNG" class="b-link-stripe b-animate-go  thickbox">
 								<img src="images/gstage1.PNG" alt="" class="img-fluid" />
@@ -404,7 +414,7 @@
 								</div>
 							</a>
 						</li>
-						
+						-->
 						<li data-aos="zoom-in">
 							<a href="images/windevgstock.jpg" class="b-link-stripe b-animate-go  thickbox">
 								<img src="images/windevgstock.jpg" alt="" class="img-fluid" />
