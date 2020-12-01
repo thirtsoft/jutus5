@@ -1,18 +1,14 @@
 <?php
-    
-    $error = '';
-    $name = '';
-    $email = '';
-    $subject = '';
-    $message = '';
-
+    $error = ''; 
+	$name = ''; 
+	$email = ''; 
+	$subject = ''; 
+	$message = '';
     function clean_text($string){
         $string = trim($string);
         $string = stripslashes($string);
         $string = htmlspecialchars($string);
-
     }
-
     if(isset($_POST["submit"])){
         if(empty($_POST["name"])){
             $error .= '<p><lable class="text-danger">SVP donner votre Nom</label></p>';
@@ -27,37 +23,27 @@
         if(empty($_POST["email"])){
             $error .= '<p><lable class="text-danger">SVP donner votre émail</label></p>';
 
-        }
-        else{
+        }else{
             $email = clean_text($_POST["email"]);
             if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
                 $error .= '<p><lable class="text-danger">Votre émail est invalide
                            rééssayer avec un émail valide</label></p>';
-
             }
-
         }
         if(empty($_POST["subject"])){
             $error .= '<p><lable class="text-danger">Donner un object 
                          à votre émail</label></p>';
-
-        }
-        else{
+        }else{
             $subject = clean_text($_POST["subject"]);
         }
-        
         if(empty($_POST["message"])){
             $error .= '<p><lable class="text-danger">Message est obligatoire </label></p>';
-
-        }
-        else{
+        }else{
             $message = clean_text($_POST["message"]);
 
         }
-
         if($error != ''){
 			require '/PHPMailer/PHPMailer/PHPMailerAutoload.php';
-          //  require 'PHPMailer/PHPMailer/PHPMailerAutoload.php';
             $mail = new PHPMailer;
             $mail->isSMTP();
             $mail->SMTPDebug = 0;
@@ -75,28 +61,19 @@
             $mail->Subject = $_POST["subject"];
             $mail->Body = $_POST["message"];
             if ($mail->send()) {
-				
                  $error = '<label class="text-success"> Votre message est bien
 						   envoyé et merci de mavoir contacter </label>';
-						    
-    
             } else {
                 $error = '<label class="text-success"> Votre message né pas
 						   envoyé rééssayer encore </label>'; 
-						  
             }
-
             $name = '';
             $email = '';
             $subject = '';
             $message = '';
-
 		}
-	
 }
 		//header('location:contact.php');
-      
-
 ?>
 
 

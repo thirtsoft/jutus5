@@ -47,7 +47,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="logo text-left">
 					<h1>
-						<a class="navbar-brand" href="index.php"><i class="fas fa-copy"></i> CV en Ligne</a>
+						<a class="navbar-brand" href="index.php"><i class="fas fa-copy"></i> Mes Réalisations</a>
 					</h1>
 				</div>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -103,7 +103,7 @@
 					<span class="mytext2"> Mamadou Tahirou Diallo </span>
 					<p class="para-style text-light mt-xl-4 mt-3"></p>
 					<div class="button-w3ls" data-aos="fade-up">
-						<a href="./images/cvDev.pdf" class="btn btn-sm animated-button thar-three mr-2">Download <i class="fas fa-download"></i></a>
+						<a href="./images/cvdev.pdf" class="btn btn-sm animated-button thar-three mr-2">Download <i class="fas fa-download"></i></a>
 						<a href="contact.php" class="btn btn-sm animated-button thar-four">engagez Moi</a>
 					</div>
 				</div>
@@ -137,7 +137,7 @@
 						<p>Si vous avez une question, ou si vous avez simplement besoin d'un renseignement, 
 							vous pouvez me contacter en cliquant ici: <a href="contact.php">Contact Moi</a>.</p>
 					<div class="button-w3ls">
-						<a href="./images/cvDev.pdf" class="btn btn-sm animated-button thar-four">Download <i class="fas fa-download"></i></a>
+						<a href="./images/cvdev.pdf" class="btn btn-sm animated-button thar-four">Download <i class="fas fa-download"></i></a>
 					</div>
 				</div>
 			</div>
@@ -244,10 +244,6 @@
 	</div>
 	<!-- //services -->
 
-	<!-- skills -->
-
-	<!-- //skills -->
-
 	<!-- education -->
 	<div class="info-w3layouts" id="education">
 		<div class="w3l-overlay py-5">
@@ -290,20 +286,36 @@
 									<h4 class="aboutbtm-head">Experience</h4>
 								</div>
 								<div class="grids-agiles-one">
-									<h5 class="text-dark mb-2">Developpeur Freelance JAVA/JEE </h5>
-									<p>De Octobre à nos jours</p>
+									<h5 class="text-dark mb-2">Développeur Web à SEN'INNOVATIONS</h5>
+									<p>Avril(2020) - Présent</p>
+								</div>
+								<div class="grids-agiles-one">
+									<h5 class="text-dark mb-2">Développeur J2EE/Angular Junior </h5>
+									<p>A présent</p>
+								</div>
+								<div class="grids-agiles-one">
+									<h5 class="text-dark mb-2">Mission Developpeur Freelance </h5>
+									<p>05Février-28Février(2020)</p>
+								</div>
+								<div class="grids-agiles-one">
+									<h5 class="text-dark mb-2">Mission Developpeur Freelance </h5>
+									<p>Octobre-Décembre(2019)</p>
+								</div>
+								<div class="grids-agiles-one">
+									<h5 class="text-dark mb-2">Mission Developpeur Freelance </h5>
+									<p>Avril-Juin(2019)</p>
 								</div>
 								<div class="grids-agiles-one my-3">
+									<h5 class="text-dark mb-2">Stagiaire Developpeur à Vision Statistique </h5>
+									<p>Décembre(2018)-Février(2019)</p>
+								</div>
+								<div class="grids-agiles-one">
 									<h5 class="text-dark mb-2">Developpeur Freelance Windev Chez un Consultant</h5>
-									<p>Juillet-Octobre 2018</p>
+									<p>Juillet-Septembre 2018</p>
 								</div>
-								<div class="grids-agiles-one">
+							<!--	<div class="grids-agiles-one">
 									<h5 class="text-dark mb-2">Mémoire Master 2</h5>
-									<p>2017-2018</p>
-								</div>
-								<div class="grids-agiles-one">
-									<h5 class="text-dark mb-2">Mémoire Master 1</h5>
-									<p>2015-2016</p>
+									<p>2016-2017</p>-->
 								</div>
 
 								<div class="style-book-wthree">
@@ -322,10 +334,6 @@
 	
 	<!-- //clients -->
 
-	<!-- facts -->
-	
-	<!-- //facts -->
-
 	<!-- projects -->
 	<div class="gallery py-5" id="projects">
 		<div class="container py-xl-5 py-lg-3">
@@ -343,32 +351,78 @@
 				<section>
 					<ul id="da-thumbs" class="da-thumbs">
 						<li data-aos="zoom-in">
-							<a href="images/gstage1.png" class="b-link-stripe b-animate-go  thickbox">
-								<img src="images/gstage1.png" alt="" class="img-fluid" />
+							<a href="images/dimoShop.PNG" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/dimoShop.PNG" alt="" class="img-fluid" />
 								<div>
-									<h5>Application Web</h5>
-									<p>Gestion de Stagiaire</p>
+									<h5>E-Commerce J2EE/Angular7 encour</h5>
+									<p>Commerce Electronique en ligne</p>
 								</div>
 							</a>
 						</li>
 						<li data-aos="zoom-in">
-							<a href="images/windevgstock.png" class="b-link-stripe b-animate-go  thickbox">
-								<img src="images/windevgstock.png" alt="" class="img-fluid" />
+							<a href="images/sudAfrica.JPG" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/sudAfrica.JPG" alt="" class="img-fluid" />
 								<div>
-									<h5>Application Desktop</h5>
+									<h5>Application Web PHP</h5>
+									<p>Gestion de vente et stock</p>
+								</div>
+							</a>
+						</li> 
+						<li data-aos="zoom-in">
+							<a href="images/kadiandouman.JPG" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/kadiandouman.JPG" alt="" class="img-fluid" />
+								<div>
+									<h5>Application Web PHP</h5>
+									<p>Gestion de réservations et Commandes</p>
+								</div>
+							</a>
+						</li> 
+						<li data-aos="zoom-in">
+							<a href="images/dpShop.JPG" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/dpShop.JPG" alt="" class="img-fluid" />
+								<div>
+									<h5>Site Web vitrine</h5>
+									<p>Boutique Parfum D&P</p>
+								</div>
+							</a>
+						</li>
+						<li data-aos="zoom-in">
+							<a href="images/taches.PNG" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/taches.PNG" alt="" class="img-fluid" />
+								<div>
+									<h5>apprentissage J2EE/Thymeleaf</h5>
+									<p>Affectation de taches aux users</p>
+								</div>
+							</a>
+						</li>
+						<li data-aos="zoom-in">
+							<a href="images/gstage1.PNG" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/gstage1.PNG" alt="" class="img-fluid" />
+								<div>
+									<h5>Application Web PHP</h5>
+									<p>Gestion de Stagiaire pour une Yakaartic</p>
+								</div>
+							</a>
+						</li>
+						
+						<li data-aos="zoom-in">
+							<a href="images/windevgstock.jpg" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/windevgstock.jpg" alt="" class="img-fluid" />
+								<div>
+									<h5>Application Desktop Windev</h5>
 									<p>Gestion de Stock et d'Inventaire</p>
 								</div>
 							</a>
 						</li>
-						<li data-aos="zoom-in">
-							<a href="images/portfolio.jpg" class="b-link-stripe b-animate-go  thickbox">
-								<img src="images/portfolio.jpg" alt="" class="img-fluid" />
-								<div>
-									<h5>Mon premier PortFolio</h5>
-									<p>Site Wéb d'auformation sur OpenTuto</p>
-								</div>
-							</a>
-						</li>
+						<!-- <li data-aos="zoom-in">
+							// <a href="images/portfolio.jpg" class="b-link-stripe b-animate-go  thickbox">
+								// <img src="images/portfolio.jpg" alt="" class="img-fluid" />
+								// <div>
+									// <h5>Mon premier PortFolio</h5>
+									// <p>Site Wéb d'auformation sur OpenTuto</p>
+								// </div>
+							// </a>
+						</li> -->
 					</ul>
 				</section>
 			</div>
@@ -387,7 +441,7 @@
 				<div class="row">
 					<div class="col-lg-5 w3l-footer-logo">
 						<!-- footer logo -->
-						<a class="navbar-brand" href="index.php"><i class="fas fa-copy"></i> CV en Ligne</a>
+						<a class="navbar-brand" href="index.php"><i class="fas fa-copy"></i> Mes Réalisations</a>
 						<!-- //footer logo -->
 					</div>
 					<!-- button -->
@@ -417,14 +471,14 @@
 				<div class="row border-top mt-4 pt-lg-4 pt-3 text-lg-left text-center">
 					<!-- copyright -->
 					<p class="col-lg-8 copy-right-grids mt-lg-1">Copyrith | @
-						<a href="https://thirdiallo@gmail.Com/" target="_blank">tairou diallo</a>
+						<a href="mailto:thirdiallo@gmail.com" target="_blank">justus5 2020</a>
 					</p>
 					<!-- //copyright -->
 					<!-- social icons -->
 					<div class="col-lg-4 w3social-icons text-lg-right text-center mt-lg-0 mt-3">
 						<ul>
 							<li>
-								<a href="https://www.facebook.com/masterou@hotmail.fr/" class="rounded-circle">
+								<a href="https://web.facebook.com/mamadoutahirou.diallo.98/" class="rounded-circle">
 									<i class="fab fa-facebook-f"></i>
 								</a>
 							</li>

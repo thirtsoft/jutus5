@@ -207,7 +207,7 @@ li.nav-item {
 }
 
 .mytext1 {
-    color: #fff;
+    color: #191919;
     font-size: 70px;
     font-weight: 800;
     letter-spacing: 2px;
@@ -218,7 +218,7 @@ li.nav-item {
 
 .mytext2 {
     font-size: 50px;
-    color: #ff3f4d;
+    color: #fff;
     letter-spacing: 1px;
     font-weight: 800;
     text-shadow: 0px 6px 5px rgba(0, 0, 0, 0.44);
