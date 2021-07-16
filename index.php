@@ -103,7 +103,7 @@
 					<span class="mytext2"> Tahirou Diallo </span>
 					<p class="para-style text-light mt-xl-4 mt-3"></p>
 					<div class="button-w3ls" data-aos="fade-up">
-						<a href="./images/cvdev.pdf" class="btn btn-sm animated-button thar-three mr-2">Download <i class="fas fa-download"></i></a>
+					<a href="./images/cv_fullStack.pdf" class="btn btn-sm animated-button thar-three mr-2">Download <i class="fas fa-download"></i></a>
 						<a href="contact.php" class="btn btn-sm animated-button thar-four">engagez Moi</a>
 					</div>
 				</div>
@@ -137,7 +137,7 @@
 						<p>Si vous avez une question, ou si vous avez simplement besoin d'un renseignement, 
 							vous pouvez me contacter en cliquant ici: <a href="contact.php">Contact Moi</a>.</p>
 					<div class="button-w3ls">
-						<a href="./images/cvdev.pdf" class="btn btn-sm animated-button thar-four">Download <i class="fas fa-download"></i></a>
+					<a href="./images/cv_fullStack.pdf" class="btn btn-sm animated-button thar-three mr-2">Download <i class="fas fa-download"></i></a>
 					</div>
 				</div>
 			</div>
@@ -153,7 +153,7 @@
 				<h3 class="title-wthree text-white mb-2">
 					<span class="text-dark mb-2"></span>Services Offerts</h3>
 				<p class="sub-tittle">Je suis prét à m'insvestir pour toutes sortes d'application à développer
-					selon les besoins.</p>
+					selon vos besoins.</p>
 			</div>
 			<!-- //heading title -->
 			<div class="row agileits-w3layouts-grid pt-md-4">
@@ -286,32 +286,33 @@
 									<h4 class="aboutbtm-head">Experience</h4>
 								</div>
 								<div class="grids-agiles-one">
+									<h5 class="text-dark mb-2">Mission Freelance chez Boutique Parfum D&P</h5>
+									<p>Av.2021 - A Présent</p>
+								</div>
+
+								<div class="grids-agiles-one">
+									<h5 class="text-dark mb-2">Mission Freelance chez Library Alamine</h5>
+									<p>Nov.2020 - Av.2021</p>
+								</div>
+								<div class="grids-agiles-one">
 									<h5 class="text-dark mb-2">Développeur Web à SEN'INNOVATIONS</h5>
-									<p>Avril(2020) - Présent</p>
-								</div>
+									<p>Av.2020 - Mars.2021</p>
+								</div>	
 								<div class="grids-agiles-one">
-									<h5 class="text-dark mb-2">Développeur J2EE/Angular Junior </h5>
-									<p>A présent</p>
+									<h5 class="text-dark mb-2">Developpeur Freelance chez hotel </h5>
+									<p>Sep.2019-Juin.2020</p>
 								</div>
-								<div class="grids-agiles-one">
-									<h5 class="text-dark mb-2">Mission Developpeur Freelance </h5>
-									<p>05Février-28Février(2020)</p>
-								</div>
-								<div class="grids-agiles-one">
-									<h5 class="text-dark mb-2">Mission Developpeur Freelance </h5>
-									<p>Octobre-Décembre(2019)</p>
-								</div>
-								<div class="grids-agiles-one">
-									<h5 class="text-dark mb-2">Mission Developpeur Freelance </h5>
-									<p>Avril-Juin(2019)</p>
+								<div class="grids-agiles-one my-3">
+									<h5 class="text-dark mb-2">Mission Freelance chez Boutique Parfum D&P</h5>
+									<p>Nov.2019 (1mois)</p>
 								</div>
 								<div class="grids-agiles-one my-3">
 									<h5 class="text-dark mb-2">Stagiaire Developpeur à Vision Statistique </h5>
-									<p>Décembre(2018)-Février(2019)</p>
+									<p>Déc.2018-Fév.2019</p>
 								</div>
 								<div class="grids-agiles-one">
 									<h5 class="text-dark mb-2">Developpeur Freelance Windev Chez un Consultant</h5>
-									<p>Juillet-Septembre 2018</p>
+									<p>Juil.2018-Sep.2018</p>
 								</div>
 							<!--	<div class="grids-agiles-one">
 									<h5 class="text-dark mb-2">Mémoire Master 2</h5>
@@ -341,7 +342,7 @@
 			<div class="mb-lg-5 mb-4 text-center">
 				<h3 class="title-wthree text-dark mb-2">
 					<span class="mb-2"></span>Mes Projets</h3>
-				<p class="sub-tittle-2">Voici une liste une liste de projets que j'ai soit réalisé.
+				<p class="sub-tittle-2">Voici une liste une liste de projets que j'ai réalisé.
 					Ils sont placés du plus récents au plus ancien projets. Mais ils y'a encore
 					plusieurs projets encours que soit en mobile ou en web
 				</p>
@@ -350,6 +351,24 @@
 			<div class="gallery-grids" >
 				<section>
 					<ul id="da-thumbs" class="da-thumbs">
+						<li data-aos="zoom-in">
+							<a href="images/homeShopmania.JPG" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/homeShopmania.JPG" alt="" class="img-fluid" />
+								<div>
+									<h5>Application SpringBoot-Angular 9</h5>
+									<p>Plateforme de commerce electronique encours</p>
+								</div>
+							</a>
+						</li>
+						<li data-aos="zoom-in">
+							<a href="images/gestStockAlamine.JPG" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/gestStockAlamine.JPG" alt="" class="img-fluid" />
+								<div>
+									<h5>Application SpringBoot-Angular 7</h5>
+									<p>Gestion de Stock et Vente de matériels</p>
+								</div>
+							</a>
+						</li>
 						<li data-aos="zoom-in">
 							<a href="images/apc.JPG" class="b-link-stripe b-animate-go  thickbox">
 								<img src="images/apc.JPG" alt="" class="img-fluid" />
@@ -363,7 +382,7 @@
 							<a href="images/dimoShop.PNG" class="b-link-stripe b-animate-go  thickbox">
 								<img src="images/dimoShop.PNG" alt="" class="img-fluid" />
 								<div>
-									<h5>E-Commerce J2EE/Angular7 encour</h5>
+									<h5>Apprentissage J2EE/Angular7</h5>
 									<p>Commerce Electronique en ligne</p>
 								</div>
 							</a>
@@ -399,22 +418,12 @@
 							<a href="images/taches.PNG" class="b-link-stripe b-animate-go  thickbox">
 								<img src="images/taches.PNG" alt="" class="img-fluid" />
 								<div>
-									<h5>apprentissage J2EE/Thymeleaf</h5>
+									<h5>Apprentissage J2EE/Thymeleaf</h5>
 									<p>Affectation de taches aux users</p>
 								</div>
 							</a>
 						</li>
-						<!--
-						<li data-aos="zoom-in">
-							<a href="images/gstage1.PNG" class="b-link-stripe b-animate-go  thickbox">
-								<img src="images/gstage1.PNG" alt="" class="img-fluid" />
-								<div>
-									<h5>Application Web PHP</h5>
-									<p>Gestion de Stagiaire pour une Yakaartic</p>
-								</div>
-							</a>
-						</li>
-						-->
+						
 						<li data-aos="zoom-in">
 							<a href="images/windevgstock.jpg" class="b-link-stripe b-animate-go  thickbox">
 								<img src="images/windevgstock.jpg" alt="" class="img-fluid" />
@@ -424,15 +433,7 @@
 								</div>
 							</a>
 						</li>
-						<!-- <li data-aos="zoom-in">
-							// <a href="images/portfolio.jpg" class="b-link-stripe b-animate-go  thickbox">
-								// <img src="images/portfolio.jpg" alt="" class="img-fluid" />
-								// <div>
-									// <h5>Mon premier PortFolio</h5>
-									// <p>Site Wéb d'auformation sur OpenTuto</p>
-								// </div>
-							// </a>
-						</li> -->
+						
 					</ul>
 				</section>
 			</div>
@@ -481,7 +482,7 @@
 				<div class="row border-top mt-4 pt-lg-4 pt-3 text-lg-left text-center">
 					<!-- copyright -->
 					<p class="col-lg-8 copy-right-grids mt-lg-1">Copyrith | @
-						<a href="mailto:thirdiallo@gmail.com" target="_blank">justus5 2020</a>
+						<a href="mailto:thirdiallo@gmail.com" target="_blank">justus5 2021</a>
 					</p>
 					<!-- //copyright -->
 					<!-- social icons -->
